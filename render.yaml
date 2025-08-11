@@ -16,6 +16,6 @@ services:
           property: connectionString
 
   # A PostgreSQL Database
-  - type: psql
+  - type: postgres
     name: my-store-db
     plan: free
