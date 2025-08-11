@@ -1,0 +1,17 @@
+{% extends 'temp.html.twig' %}
+{% block title %}Edit Product{% endblock %}
+
+{% block body %}
+    <h1>Edit Product</h1>
+
+    {{ include('admin_product/_form.html.twig', {'button_label': 'Update'}) }}
+    <div class="mb-3 row">
+        <div class="offset-sm-2 col-sm-10 d-flex align-items-center">
+            {{ include('admin_product/_delete_form.html.twig') }}
+        </div>
+    </div>
+
+
+
+
+{% endblock %}
